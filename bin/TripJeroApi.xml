@@ -4,6 +4,13 @@
         <name>TripJeroApi</name>
     </assembly>
     <members>
+        <member name="T:TripJeroApi.Controllers.PaymentCallbackController">
+            <summary>
+            Payment callback controller for HyperPay redirects
+            This controller is public (no authentication required) as HyperPay redirects here
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:TripJeroApi.Controllers.PaymentCallbackController.PaymentResult" -->
         <member name="M:TripJeroApi.Controllers.PaymentController.CreateCheckoutId(TripJeroApi.Controllers.CreateCheckoutRequest)">
             <summary>
             Creates a checkout ID from HyperPay for the payment widget
